@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"/>
+		
+		<meta name="theme-color" content="#e3a3a3">
+		
+		<title></title>
+		<meta name="description" content=""/>
+		<meta name="author" content=""/>
+		
+		<link href="css/style.css" rel="stylesheet" type="text/css" />	
+		
+	</head>
+	
+	<body>
+		<div class="container">
+			<h1>PUZZLE</h1>
+      <div id="levleSelect">
+        <p>Please select difficulty:</p>
+        <div class="buttons">
+          <button data-level="2">2x2</button>
+          <button data-level="3">3x3</button>
+          <button data-level="4">4x4</button>
+          <button data-level="5">5x5</button>
+          <button data-level="6">6x6</button>
+          <button data-level="7">7x7</button>
+        </div>
+      </div>
+			<div id="game" class="noselect"></div>
+		</div>
+		<canvas id="canvas"></canvas>
+		
+		
+		
+		<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+		<script type="text/javascript" src="js/rotate.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>	
+		
+	</body>
+</html>
